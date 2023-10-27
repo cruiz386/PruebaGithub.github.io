@@ -1,0 +1,208 @@
+* {
+    font-family: 'Urbanist', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.fotos-carrousel {
+    max-height:50rem !important;
+    padding-bottom: 230px !important;
+}
+
+
+.texto-descripcion {
+font-size: 25px;
+}
+
+
+/* Estilo para las celdas */
+.item {
+    background-color: #ffffff;
+    color: grey;
+    /* padding: 10px; */
+    text-align: center;
+
+}
+
+/* Estilo para el encabezado */
+.header {
+    font-family: 'Urbanist', sans-serif;
+    display: inline-flex;
+    grid-area: header;
+    /* grid-column: 1 / -1; Ocupa todas las columnas disponibles */
+    background-color: #fff6f6eb;
+    color: grey;
+}
+
+.uno {
+    grid-area: uno;
+}
+
+.dos {
+    grid-area: dos;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.cuatro {
+    grid-area: cuatro;
+}
+
+.cinco {
+    grid-area: cinco;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.seis {
+    grid-area: seis;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.siete {
+    grid-area: siete;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1dfc7;
+}
+
+.ocho {
+    grid-area: ocho;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1dfc7;
+}
+
+.nueve {
+    grid-area: nueve;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.diez {
+    grid-area: diez;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: bisque;
+
+}
+
+.once {
+    grid-area: once;
+}
+
+.footer-uno {
+    grid-area: footer1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-dos {
+    grid-area: footer2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-tres {
+    grid-area: footer3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-cuatro {
+    grid-area: footer4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    grid-area: footer;
+    /* grid-column: 1 / -1; Ocupa todas las columnas disponibles */
+    color: #808080;
+    padding: 10px;
+    text-align: center;
+}
+
+.img-productos-home {
+    width: 220px;
+    border-radius: 20px;
+
+}
+
+.img-productos {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.descripcion {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 15px;
+    text-align: start;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.enlace {
+    text-decoration: none;
+    color: #808080;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lista-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.titulo {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: start;
+    padding-top: 10px;
+}
+
+.encabezado-descripcion {
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+.logo-rs {
+    width: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: black;
+}
+
+.menu {}
+
+
+
+
